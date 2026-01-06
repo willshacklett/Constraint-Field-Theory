@@ -56,8 +56,8 @@ The example constructs two saturating constraints, measures their isolated
 responses, applies joint stress, and computes a simple coupling index based on
 deviation from independent expectations.
 
-This implementation is intentionally simple and exists to support falsification:
-if combined behavior matches independent saturation envelopes, the coupling
+This implementation is intentionally simple and exists to support falsification.
+If combined behavior matches independent saturation envelopes, the coupling
 index approaches zero.
 
 ---
