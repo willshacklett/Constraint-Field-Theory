@@ -22,7 +22,31 @@ supported by toy simulations.
 \end{abstract}
 
 \section{Introduction}
-% Why limits, saturation, and stability appear across domains
+
+Across many domains, complex systems exhibit persistent limits.
+Physical systems display bounded responses to increasing energy input,
+biological systems saturate under resource pressure,
+cognitive systems encounter attention and processing ceilings,
+and engineered software systems degrade or destabilize beyond certain loads.
+
+These limits are often treated as domain-specific artifacts:
+material strength limits in physics,
+carrying capacities in biology,
+or performance bottlenecks in software.
+While such explanations are locally effective,
+they provide little insight into why saturation, stability,
+and boundary behavior appear so consistently across disparate systems.
+
+A recurring pattern is that increasing input does not lead to proportional output.
+Instead, systems enter regimes of diminishing returns,
+plateaus, or abrupt transitions.
+Understanding the structure of these regimes is critical for prediction,
+control, and long-horizon reliability.
+
+This paper explores whether these recurring behaviors can be modeled
+using a common abstraction:
+a constraint field that encodes how limits arise,
+propagate, and saturate within a system.
 
 \section{Motivation and Scope}
 % What CFT explains and explicitly does not explain
