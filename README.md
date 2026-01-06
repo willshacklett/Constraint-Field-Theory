@@ -36,5 +36,9 @@ Early-stage working draft. The goal is clarity, falsifiability, and minimal hype
   in long-horizon software systems, informed by Constraint Field Theory.  
   https://github.com/willshacklett/godscore-ci
 
+  **Intuition (informal):**  
+Many systems behave less like unbounded acceleration and more like motion through a medium:
+constraints accumulate, couple, and saturate.
+
 ## License
 MIT (see LICENSE).
