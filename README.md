@@ -30,5 +30,10 @@ Early-stage working draft. The goal is clarity, falsifiability, and minimal hype
 - Predictions: `theory/04_predictions.md`
 - How to falsify: `theory/05_falsification.md`
 
+## Related Implementations
+
+- **GodScore CI** — An applied system for monitoring constraint observables
+  in long-horizon software systems, motivated by Constraint Field Theory.
+
 ## License
 MIT (see LICENSE).
