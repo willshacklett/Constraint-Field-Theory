@@ -1,5 +1,9 @@
 # Constraint Field Theory (CFT)
 
+This project is exploratory but disciplined. Claims are intentionally scoped,
+terminology is defined before use, and every proposed mechanism is paired with
+a potential route to falsification.
+
 Constraint Field Theory proposes that many “limits” we observe in complex systems (physics, biology, cognition, engineered software)
 can be modeled as a field-like structure that:
 - propagates constraints,
