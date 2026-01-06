@@ -258,7 +258,33 @@ If no scalar or low-dimensional projection of system behavior
 remains stable across time, environments, o
 
 \section{Toy Models and Examples}
-% Pulls from examples/
+
+To illustrate the qualitative behavior predicted by Constraint Field Theory,
+a minimal toy model was implemented in code.
+
+The model defines a small number of constraint components subject to
+constant drive and weak coupling.
+A bounded saturation function is applied to represent constraint limits.
+No domain-specific assumptions are introduced.
+
+Figure~\ref{fig:saturation} shows the response of a single constraint component
+under sustained input.
+While the raw component grows approximately linearly,
+the saturated response approaches a bounded regime.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{figures/saturation_demo.png}
+\caption{Example of constraint saturation under constant drive.
+The raw component increases monotonically, while the saturated response
+approaches a bounded regime, illustrating Prediction~1.}
+\label{fig:saturation}
+\end{figure}
+
+This behavior reflects the saturation and boundary effects
+predicted by CFT and serves as a minimal demonstration
+of how constraint observables remain bounded
+even under increasing drive.
 
 \section{Discussion}
 % Implications, limits, and future work
