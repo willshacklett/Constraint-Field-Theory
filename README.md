@@ -1,2 +1,30 @@
-# Constraint-Field-Theory
-A working theory and reference implementation exploring constraint fields as a unifying way to model limits, saturation, and stability across physical, biological, and engineered systems. Focused on definitions, minimal formalism, testable predictions, and falsification.
+# Constraint Field Theory (CFT)
+
+Constraint Field Theory proposes that many “limits” we observe in complex systems (physics, biology, cognition, engineered software)
+can be modeled as a field-like structure that:
+- propagates constraints,
+- saturates at boundaries,
+- and produces stable observables.
+
+This repository contains:
+- **theory/**: definitions, axioms, minimal formalism, predictions, falsification tests
+- **models/**: toy models and simulations
+- **src/**: reference implementation scaffolding (Python)
+- **tests/**: sanity checks and reproducibility hooks
+
+## Core idea (one sentence)
+Reality behaves less like unbounded acceleration and more like motion through a medium: constraints accumulate, couple, and saturate.
+
+## Status
+Early-stage working draft. The goal is clarity, falsifiability, and minimal hype.
+
+## Quick navigation
+- Theory overview: `theory/00_manifesto.md`
+- Definitions: `theory/01_definitions.md`
+- Axioms: `theory/02_axioms.md`
+- Minimal math: `theory/03_minimal_math.md`
+- Predictions: `theory/04_predictions.md`
+- How to falsify: `theory/05_falsification.md`
+
+## License
+MIT (see LICENSE).
