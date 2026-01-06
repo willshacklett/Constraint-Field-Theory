@@ -1,76 +1,101 @@
 # Coupling Notes (v0)
 
-This note defines "coupling" in Constraint Field Theory (CFT) in the weakest
-useful way: as a detectable failure of independence between constraints.
+This note defines **coupling** in Constraint Field Theory (CFT) in the weakest
+useful sense: as a detectable failure of independence between constraints.
 
-The goal is falsifiability, not completeness.
+The purpose of this note is not to introduce new structure, but to specify
+what *must* be observed for coupling claims to be justified, and how such
+claims can fail.
 
 ---
 
-## What coupling means (minimal definition)
+## What coupling means (operational definition)
 
-Two constraints are **coupled** if stressing one measurably alters the saturation
-behavior of the other **beyond what independent behavior would predict**.
+In Constraint Field Theory, coupling is defined operationally rather than
+assumed a priori.
 
-Equivalently: coupling exists when joint stress produces a response that is not
-well explained by a simple combination of isolated saturation curves.
+Two constraints are said to be **coupled** if, under joint stress, the system’s
+saturation behavior deviates measurably from the behavior predicted by treating
+the constraints as independent.
+
+Independence is the null hypothesis. If the combined response is well explained
+by the envelope (e.g., max, union, or linear superposition) of isolated
+saturation responses, coupling is taken to be zero.
+
+Coupling is therefore detected only through deviation from independence, such as
+earlier saturation onset, reduced effective capacity, delayed propagation, or
+qualitatively steeper degradation under combined stress.
+
+If no such deviation is observed, the coupling claim fails for that system and
+scale.
 
 ---
 
 ## What coupling is not
 
-Coupling is **not** synonymous with "interaction."
+Coupling is **not** synonymous with interaction.
 
-Coupling is also **not** guaranteed by shared resources if the combined behavior
-is explainable by linear superposition (e.g., predictable CPU contention).
+The mere presence of shared resources, feedback paths, or simultaneous activity
+does not imply coupling if observed behavior remains explainable by independent
+constraint saturation.
 
-For CFT to remain falsifiable, some constraints must saturate independently.
+Coupling is also **not** guaranteed. Some constraints may saturate independently,
+and CFT requires this to remain possible for the theory to be falsifiable.
 
 ---
 
-## Operational viewpoint (domain-agnostic)
+## Measurement perspective
+
+Coupling is assessed by comparison, not assumption.
 
 Given two constraint dimensions (or components) A and B:
 
-1. Measure A under stress in isolation → get its saturation curve and onset.
-2. Measure B under stress in isolation → get its saturation curve and onset.
-3. Stress A and B together → measure the combined curve.
+1. Measure the saturation behavior of A under increasing stress in isolation.
+2. Measure the saturation behavior of B under increasing stress in isolation.
+3. Apply joint stress to A and B and measure the combined response.
 
 If the combined response deviates significantly from the independent expectation,
-declare coupling present.
+coupling is present at the tested scale.
 
 ---
 
-## Weak coupling criteria (v0 candidates)
+## Weak coupling criteria (v0)
 
-These are deliberately weak and should be tightened only after testing failures.
+These criteria are intentionally weak and should be tightened only after
+counterexamples are examined.
 
 ### Criterion 1 — Earlier-onset deviation
-Combined saturation begins earlier than expected from isolated onsets.
+Combined stress produces saturation at lower load than predicted by isolated
+responses.
 
 ### Criterion 2 — Shape deviation
-Combined degradation curve is steeper or qualitatively different than expected
-(e.g., sudden cliff, hysteresis, cascading failure mode).
+The degradation curve under joint stress is steeper or qualitatively different
+(e.g., cliffs, hysteresis, cascading failure modes).
 
-### Criterion 3 — Lagged propagation ("constraint echoes")
-Saturation (or boundary behavior) in A reliably precedes similar behavior in B
+### Criterion 3 — Propagated effects ("constraint echoes")
+Saturation in one constraint reliably precedes correlated degradation in another
 with a detectable delay.
 
 ---
 
 ## Falsification targets
 
-Evidence against coupling (and therefore against a "field-like" framing) includes:
+Evidence against coupling (and therefore against a field-like framing) includes:
 
-- A and B saturate under stress, but joint stress produces behavior well explained
-  by max/union of isolated curves (coupling index ~ 0).
-- Saturation events remain statistically independent across repeated experiments.
-- Apparent coupling vanishes after accounting for simple linear resource contention.
+- Joint stress behavior fully explained by independent saturation envelopes.
+- No statistically significant correlation in saturation onset or shape.
+- Apparent coupling that disappears after accounting for linear resource
+  contention or trivial dependencies.
+
+If such cases dominate across domains, CFT’s coupling claims are weakened.
 
 ---
 
-## Notes on interpretation
+## Notes on scope
 
-This note does not assume field equations, kernels, or conservation laws.
-It only asserts that coupling should be detectable as a deviation from independence
-in systems where saturation is otherwise clear.
+This note does not assume field equations, interaction kernels, or conservation
+laws.
+
+It only asserts that if constraint fields are a useful abstraction, coupling
+should be detectable as a deviation from independence in systems where
+saturation is otherwise clear.
