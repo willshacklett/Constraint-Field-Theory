@@ -88,7 +88,56 @@ that are otherwise treated as unrelated.
 If unsuccessful, its failure modes should be explicit and testable.
 
 \section{Definitions}
-% Mirrors theory/01_definitions.md
+
+This section defines the core terms used throughout Constraint Field Theory (CFT).
+Terminology is fixed prior to formal development to avoid ambiguity.
+
+\subsection{Constraint}
+A constraint is any rule, boundary, or limitation that restricts the set of
+reachable states of a system.
+
+Constraints may arise from physical laws, resource limitations,
+structural dependencies, or design choices.
+They are treated as real features of systems rather than artifacts
+of incomplete knowledge.
+
+\subsection{Constraint Field}
+A constraint field is a structured distribution of constraints
+defined over space, time, or abstract state space.
+
+The constraint field encodes how limitations vary across a system
+and how they influence reachable states locally and globally.
+
+Notation placeholders include:
+\begin{itemize}
+\item $C(x,t)$ for a constraint field over spacetime,
+\item $C(s)$ for a constraint field over abstract state space.
+\end{itemize}
+
+No assumption is made about the microscopic origin of the field.
+
+\subsection{Saturation}
+Saturation refers to the phenomenon in which increasing input,
+drive, or effort produces diminishing or null changes
+in system behavior due to constraint limits.
+
+Saturation manifests as plateaus, diminishing returns,
+or stable boundary regimes.
+
+\subsection{Coupling}
+Coupling describes dependencies between constraints,
+such that modifying one constraint alters the effective influence
+of others.
+
+Coupling may be asymmetric, nonlinear, or delayed,
+and need not correspond to direct physical interaction.
+
+\subsection{Observable}
+An observable is a measurable scalar or low-dimensional quantity
+derived from the constraint field.
+
+Observables summarize constraint behavior in a stable manner
+and enable comparison across time, conditions, or systems.
 
 \section{Axioms}
 % Mirrors theory/02_axioms.md
