@@ -15,4 +15,7 @@ plt.xlabel("time step")
 plt.ylabel("value")
 plt.legend()
 plt.title("Constraint saturation under constant drive")
-plt.show()
+plt.tight_layout()
+plt.savefig("paper/figures/saturation_demo.png", dpi=200)
+plt.close()
+
