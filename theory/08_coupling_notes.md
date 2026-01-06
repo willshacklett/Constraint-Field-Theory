@@ -99,3 +99,20 @@ laws.
 It only asserts that if constraint fields are a useful abstraction, coupling
 should be detectable as a deviation from independence in systems where
 saturation is otherwise clear.
+
+---
+
+## Reference implementation
+
+A minimal, executable demonstration of the coupling criteria defined above is
+provided in:
+
+- `examples/03_coupling_demo.py`
+
+The example constructs two saturating constraints, measures their isolated
+responses, applies joint stress, and computes a simple coupling index based on
+deviation from independent expectations.
+
+This implementation is intentionally simple and exists to support falsification:
+if combined behavior matches independent saturation envelopes, the coupling
+index approaches zero.
