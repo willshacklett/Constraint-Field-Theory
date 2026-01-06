@@ -33,7 +33,8 @@ Early-stage working draft. The goal is clarity, falsifiability, and minimal hype
 ## Related Implementations
 
 - **GodScore CI** — An applied system for monitoring constraint observables
-  in long-horizon software systems, motivated by Constraint Field Theory.
+  in long-horizon software systems, informed by Constraint Field Theory.  
+  https://github.com/willshacklett/godscore-ci
 
 ## License
 MIT (see LICENSE).
