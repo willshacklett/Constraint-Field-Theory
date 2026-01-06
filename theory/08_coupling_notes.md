@@ -68,4 +68,3 @@ If sustained joint stress across multiple constraints consistently produces
 responses indistinguishable from independent saturation behavior, then coupling
 —as defined here—fails to manifest, and the coupling claim of Constraint Field
 Theory is falsified for that system and scale.
-
