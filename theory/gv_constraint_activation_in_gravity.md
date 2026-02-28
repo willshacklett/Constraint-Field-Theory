@@ -1,5 +1,9 @@
 # GV Constraint Activation in Gravity (curvature-gated modifications)
 
+**Purpose:** Define a curvature-gated activation law that implements GV-style constraint “interlock” behavior in gravity.  
+High curvature (local/early universe) locks GR by suppressing modifications; ultra-low curvature (deep IR) permits controlled deviation.  
+This document states the mechanism and the minimal falsifiers (health, background, perturbations, local recovery).
+
 ## Constraint Activation Flow
 
 ![Constraint Activation Flow](mermaid-diagram.png)
