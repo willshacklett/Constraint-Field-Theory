@@ -2,16 +2,7 @@
 
 ## Constraint Activation Flow
 
-```mermaid
-flowchart TD
-  A[Input curvature R] --> B[Compute x = R / R_*]
-  B --> C[Gate S(x) = 1 / (1 + x^p)]
-  C -->|x >> 1| D[High curvature\nS ~ 0]
-  C -->|x << 1| E[Low curvature\nS ~ 1]
-  D --> F[GR recovered\nf_R → 0\nf_RR → 0\nm^2 → large]
-  E --> G[IR modification allowed\nf(R) ~ -2Λ_eff + α R_* x^n]
-  F --> H[β = k² / (a² m²)\nμ≈η≈Σ≈1]
-  G --> I[Check observables\nH(z), fσ8, lensing, ISW]
+![Constraint Activation Flow](mermaid-diagram.png)
 
 ## 1) Constraint activation function
 
